@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  font-size: small;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.block {
+  background: greenyellow;
+  border: 1px solid black;
+  width: 170px;
+  height: 200px;
+  margin: 20px;
+}
+
+.block div{
+  padding: 10px;
+  display: block;
+background: red;
+  width: 120px;
+  height: 150px;
+  border: 1px solid black;
+}
+
